@@ -153,13 +153,15 @@
                         android:drawableLeft="@drawable/ic_phone"/>
             </com.google.android.material.textfield.TextInputLayout>
 
-            <Button
+            <TextView
                     android:id="@+id/btn_register"
                     style="@style/ActionButton.Large"
                     android:layout_marginTop="10dp"
                     android:layout_marginStart="@dimen/margin_16"
                     android:layout_marginLeft="@dimen/margin_16"
                     android:text="@string/label_registration"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:onClick="onClickRegistration"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/til_phone"/>
